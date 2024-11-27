@@ -1,2 +1,2 @@
-# A
-coba 1
+# Proyek Magang Exercise
+Minggu 1 & Minggu 2&3
