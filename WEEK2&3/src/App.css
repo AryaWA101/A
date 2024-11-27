@@ -1,0 +1,54 @@
+.portfolio {
+    font-family: 'Arial', sans-serif;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.portfolio-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.portfolio-projects {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.project-card {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+    margin-top: 0;
+}
+/* Pastikan elemen body dan html mencakup seluruh layar */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Pastikan tinggi halaman penuh layar */
+}
+
+/* Tambahkan gaya flexbox pada kontainer utama */
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Tinggi minimum = 100% dari viewport */
+}
+
+/* Bagian main akan mengambil semua ruang kosong */
+main {
+    flex: 1;
+}
+
+/* Footer tetap di bawah layar */
+footer {
+    background-color: #222; /* Warna latar belakang footer */
+    color: white; /* Warna teks footer */
+    text-align: center;
+    padding: 1rem;
+}

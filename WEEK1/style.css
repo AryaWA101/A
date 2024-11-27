@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 600px;
+  background-color: #003651; /* Warna navy */
+  padding: 20px;
+  border-radius: 20px; /* Membuat sudut kotak menjadi membulat */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #49edff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
